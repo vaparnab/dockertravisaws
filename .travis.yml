@@ -12,11 +12,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: 'us-east-1'
-  app: 'docker'
-  env: 'docker-env'
-  bucket_name: 'elasticbeanstalk-us-east-1-923445559289'
-  bucket_path: 'docker'
+  region: 'ap-south-1'
+  app: 'Docktravaws'
+  env: 'Docktravaws-env'
+  bucket_name: 'elasticbeanstalk-ap-south-1-165842914962'
+  bucket_path: 'Docktravaws'
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
